@@ -105,8 +105,8 @@ const ProductDetails = () => {
   
   return (
     <>
-      <h2 className='display-5 text-center  mt-5 mb-3'>Best Seller </h2>
-
+      {/* <h2 className='display-5 text-center  mt-5 mb-3'>Best Seller </h2> */}
+    <div className='mt-5 mb-3'> </div>
     <div className="container bg-light p-5 ">
     <div className="mx-auto row  rounded p-4 ">
 

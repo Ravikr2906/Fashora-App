@@ -21,7 +21,7 @@ const togglerNavDrawerOpen = () => {
       </div>
       {/* NAV LINKS */}
       <div className='d-none d-md-flex gap-4 pt-4  me-4'>
-        <Link to="#" className='nav-link fs-5 mt-2' style={{ color: '#4b5563' }}>MEN</Link>
+        <Link to="/collections/all" className='nav-link fs-5 mt-2' style={{ color: '#4b5563' }}>MEN</Link>
         <Link to="#" className='nav-link fs-5 mt-2' style={{ color: '#4b5563' }}>WOMEN</Link>
         <Link to="#" className='nav-link fs-5 mt-2' style={{ color: '#4b5563' }}>TOP WEAR</Link>
         <Link to="#" className='nav-link fs-5 mt-2' style={{ color: '#4b5563' }}>BOTTOM WEAR</Link>
@@ -55,7 +55,7 @@ const togglerNavDrawerOpen = () => {
   </div>
   <div className="offcanvas-body">
     <nav>
-    <Link to="#" className='my-2 bg-light text-secondary nav-link fs-5  border-bottom text-center '>MEN</Link>
+    <Link to="/collections/all" className='my-2 bg-light text-secondary nav-link fs-5  border-bottom text-center '>MEN</Link>
 
     <Link to="#" className='my-2 bg-light text-secondary nav-link fs-5  border-bottom text-center '>WOMEN</Link>
     <Link to="#" className='my-2 bg-light text-secondary nav-link fs-5  border-bottom text-center '>TOP WEAR</Link>

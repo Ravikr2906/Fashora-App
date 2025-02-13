@@ -1,8 +1,13 @@
 import {HiOutlineShoppingBag} from "react-icons/hi2"
 import React from 'react'
 import CartContents from "../cart/CartContents"
+import { useNavigate } from "react-router-dom"
 
 const CartDrawer = () => {
+const navigate = useNavigate()
+  const handleCheckout = () => {
+navigate("/checkout")
+  }
   return (
     <div>
        <button class="btn mt-3  position-relative" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
@@ -22,7 +27,7 @@ const CartDrawer = () => {
 
   {/* checkout button fixed at the bottom */}
   <div className="py-2 px-4 bg-white sticky-bottom ">
-<button className="w-100 bg-primary text-white py-2 rounded hover">Checkout</button>
+<button  onClick={handleCheckout} className="w-100 bg-danger bg-gradient text-white py-2 rounded hover">Checkout</button>
 
   </div>
   <p className="text-secondary px-4 ">Shipping, taxes, and discount codes  calculated at checkout.</p>

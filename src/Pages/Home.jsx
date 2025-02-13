@@ -90,6 +90,7 @@ const Home = () => {
     <NewArrivals/>
 
     {/* Best Seller */}
+    <h2 className='display-5 text-center  mt-5 mb-3'>Best Seller </h2>
     <ProductDetails/>
 
 
